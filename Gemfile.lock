@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/olindos/olindos_view_tool
+  revision: 936e5dec3e5ed42d49a8d647b39f5a3ea06e3885
+  specs:
+    olindos_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -227,6 +233,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  olindos_view_tool!
   pg (~> 0.18)
   pry-byebug (~> 3.6)
   puma (~> 3.0)
