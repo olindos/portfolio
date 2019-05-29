@@ -20,4 +20,4 @@
 /config/secrets.yml
 
 #Ignore all images
-/images/*
+/app/assets/images/*
