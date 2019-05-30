@@ -19,5 +19,6 @@
 # I don't want to show my secrets.
 /config/secrets.yml
 
-#Ignore all images
+#Ignore all images and videos
 /app/assets/images/*
+/app/assets/videos/*
