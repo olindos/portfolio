@@ -20,5 +20,5 @@
 /config/secrets.yml
 
 #Ignore all images and videos
-/app/assets/images/*
-/app/assets/videos/*
+#/app/assets/images/*
+#/app/assets/videos/*
