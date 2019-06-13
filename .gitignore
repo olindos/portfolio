@@ -18,3 +18,8 @@
 
 # I don't want to show my secrets.
 /config/secrets.yml
+.env
+
+#Ignore all images and videos
+#/app/assets/images/*
+#/app/assets/videos/*
