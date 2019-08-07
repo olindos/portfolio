@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    OlindosViewTool::Renderer.copyright 'Yaroslav Mogutin', 'All rights reserved'
+    OlindosViewTool::Renderer.copyright 'Yaroslav Mohutin', 'All rights reserved'
   end
 
   def nav_items
