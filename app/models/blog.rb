@@ -12,4 +12,7 @@ class Blog < ApplicationRecord
     all
   end
 
+  def self.recent
+    order("created_at DESC")
+  end
 end
