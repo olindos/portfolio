@@ -1,3 +1,21 @@
+User.create!(
+  email: "test@test.com",
+  password: "asdfasdf",
+  name: "Admin User",
+  roles: "site_admin"
+)
+
+puts "1 Admin User created"
+
+User.create!(
+  email: "test2@test.com",
+  password: "asdfasdf",
+  name: "Regular User"
+)
+
+puts "1 Regular User created"
+
+
 3.times do |topic|
   Topic.create!(
     title: "Title #{topic}"
@@ -17,7 +35,7 @@ end
       rationally encounter consequences that are extremely painful.
       Nor again is there anyone who loves or pursues or desires to obtain
       pain of itself, because it is pain, but because occasionally
-      circumstances occur in which toil and pain can procure him some great 
+      circumstances occur in which toil and pain can procure him some great
       leasure. To take a trivial example, which of us ever undertakes
       laborious physical exercise, except to obtain some advantage from it?
       But who has any right to find fault with a man who chooses to enjoy
