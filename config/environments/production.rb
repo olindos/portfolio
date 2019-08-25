@@ -86,5 +86,5 @@ Rails.application.configure do
 
   config.action_cable.allowed_request_origins = ['https://ym-portfolio.herokuapp.com',
     'http://ym-portfolio.herokuapp.com']
-  config.action_cable.url = 'wss://ym-portfolio.herokuapp.com/cable'
+  config.web_socket_server_url = 'wss://ym-portfolio.herokuapp.com/cable'
 end
